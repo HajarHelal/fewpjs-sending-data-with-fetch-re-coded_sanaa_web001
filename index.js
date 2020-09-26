@@ -11,9 +11,13 @@ return fetch( 'http://localhost:3000/users', {
       email
     } )
   } )
+<<<<<<< HEAD
   .then( function ( response ) {
     return response.json()
   } )
+=======
+
+>>>>>>> d27082cbce5f2343a5bdf0fdbadaa7b78f37004c
   .then( function ( object ) {
     document.body.innerHTML = object[ "id" ]
   } )
